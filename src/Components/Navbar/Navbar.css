@@ -1,0 +1,55 @@
+.navbar{
+    background-color: #ECECF1;
+    position: relative;
+    top: 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    width: 510px;
+    justify-content: space-between;
+}
+.inp-box{
+    padding-right: 12px;
+    display: flex;
+    width: 290px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid #dadada;
+    background-color: #E0E0EA;
+    overflow: hidden;
+}
+.inp-box input{
+    padding-left: 10px;
+    width: 88%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #E0E0EA;
+}
+.lang select{
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    width: 75px;
+    outline: none;
+}
+.profile{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.profile img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,84 @@
+.dashboard{
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+}
+.dashboard .dets{
+    padding:20px;
+    line-height: 28px;
+}
+.dets p{
+    font-size: 15px;
+}
+.dash{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.dash .box{
+    height: 240px;
+    width: 240px;
+    background: #626ED4;
+    border-radius: 4px;
+    padding: 20px;
+}
+.top{
+    height: 40%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.top .icon{
+    height: 70px;
+    width: 70px;
+    background-color: #7984DA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon img{
+    height: 40%;
+}
+.top .info{
+    width: 110px;
+    color: #b5bdf4;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top .info span{
+    font-size: 24px;
+    color: white;
+}
+.mid{
+    height: 45%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+.mid img{
+    height: 77%;
+}
+.bottom{
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.bottom p{
+    color: #b5bdf4;
+    font-size: 15px;
+    font-weight: 500;
+}
+.mid .circle{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 8px solid #eceaea;
+}

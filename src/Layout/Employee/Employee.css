@@ -1,0 +1,85 @@
+.employee {
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+    padding: 20px;
+}
+
+.dets {
+    line-height: 28px;
+}
+.dets p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.employee-container {
+    margin-top: 30px;
+    padding: 12px;
+    /* min-height: 200px; */
+    width: 100%;
+    box-shadow: 0 0 10px #0000003d;
+    border-radius: 7px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.search input {
+    height: 27px;
+    width: 250px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: 1px solid #dadada;
+    outline: none;
+}
+.table-wrapper{
+    height: 300px;
+    overflow-y: scroll;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    height: 200px;
+    overflow-y:scroll ;
+}
+
+th,
+td {
+    border: 1px solid #dadada;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ECECF1;
+    font-weight: 600;
+    width: 20%;
+    /* adjust the width as needed */
+}
+
+td {
+    word-wrap: break-word;
+    white-space: normal;
+}
+.edit{
+    padding: 2px 8px;
+    background-color: #29903B;
+    color: white;
+    border: none;
+    outline: none;
+
+}
+.delete{
+    margin-left: 10px;
+    padding: 2px 8px;
+    background-color: #EC4561;
+    color: white;
+    border: none;
+    outline: none;
+}
